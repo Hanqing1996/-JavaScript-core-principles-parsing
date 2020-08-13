@@ -32,7 +32,7 @@ function f() {
 > 函数的上下文环境在创建一个“变量名”后，会为它初始化绑定一个 undefined 值，而”词法名字（lexicalNames）”在创建之后就没有这项待遇，所以它们在缺省情况下就是“还没有绑定值”的标识符。
 ---
 
-#### 补充
+## var,function,let 的创建、初始化和赋值 
 > 对[我用了两个月的时间才理解 let](https://fangyinghang.com/let-in-js/)的总结
 #### var 声明的「创建、初始化和赋值」过程
 ```
