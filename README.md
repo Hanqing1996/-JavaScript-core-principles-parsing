@@ -29,7 +29,7 @@ function f() {
 
 > 回到 ECMAScript 6 之前：JavaScript 是允许访问还没有绑定值的var所声明的标识符的。这种标识符后来统一约定称为“变量声明（varDelcs）”，而“let/const”则称为“词法声明（lexicalDecls）”。>
 
-> 函数的上下文环境在创建一个“变量名”后，会为它初始化绑定一个 undefined 值，而”词法名字（lexicalNames）”在创建之后就没有这项待遇，所以它们在缺省情况下就是“还没有绑定值”的标识符。
+> 对于“变量声明（varDelcs）”，函数的上下文环境在创建一个“变量名”后，会为它初始化绑定一个 undefined 值，再执行代码。而”词法名字（lexicalNames）”在创建之后就没有这项待遇（直到执行代码后才初始化为undefined），所以它们在缺省情况下就是“还没有绑定值”的标识符。
 ---
 
 ## var,function,let 的创建、初始化和赋值 
